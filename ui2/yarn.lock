@@ -1229,9 +1229,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ianvs/prettier-plugin-sort-imports@npm:^4.5.1":
-  version: 4.5.1
-  resolution: "@ianvs/prettier-plugin-sort-imports@npm:4.5.1"
+"@ianvs/prettier-plugin-sort-imports@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "@ianvs/prettier-plugin-sort-imports@npm:4.6.1"
   dependencies:
     "@babel/generator": "npm:^7.26.2"
     "@babel/parser": "npm:^7.26.2"
@@ -1241,13 +1241,19 @@ __metadata:
   peerDependencies:
     "@prettier/plugin-oxc": ^0.0.4
     "@vue/compiler-sfc": 2.7.x || 3.x
+    content-tag: ^4.0.0
     prettier: 2 || 3 || ^4.0.0-0
+    prettier-plugin-ember-template-tag: ^2.1.0
   peerDependenciesMeta:
     "@prettier/plugin-oxc":
       optional: true
     "@vue/compiler-sfc":
       optional: true
-  checksum: 10c0/3645a0bb85aa155b755ff4ae16b753139e7813d08e1f40b07b8f69a99b9829c2d8dbf1dbb4f00817240fed0dab3742a6110f6186adf233a2125aec83260a57ae
+    content-tag:
+      optional: true
+    prettier-plugin-ember-template-tag:
+      optional: true
+  checksum: 10c0/1832eca2ba73ced3390bfa93d93a8df2a61aca475c78e0e18f03316bf42debd3c32ec37342aae856db02ddde0b01a86ff4b0023072078da0f224368e008b21d4
   languageName: node
   linkType: hard
 
@@ -6044,7 +6050,7 @@ __metadata:
   resolution: "mantine-vite-template@workspace:."
   dependencies:
     "@eslint/js": "npm:^9.12.0"
-    "@ianvs/prettier-plugin-sort-imports": "npm:^4.5.1"
+    "@ianvs/prettier-plugin-sort-imports": "npm:^4.6.1"
     "@mantine/core": "npm:7.14.0"
     "@mantine/form": "npm:^7.14.0"
     "@mantine/hooks": "npm:8.2.2"
