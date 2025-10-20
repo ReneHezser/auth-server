@@ -5682,7 +5682,7 @@ __metadata:
     prop-types: "npm:^15.8.1"
     react: "npm:^19.1.1"
     react-dom: "npm:^19.1.1"
-    react-i18next: "npm:^16.0.0"
+    react-i18next: "npm:^16.1.0"
     react-router-dom: "npm:^7.8.1"
     storybook: "npm:^9.1.2"
     storybook-dark-mode: "npm:^4.0.2"
@@ -6577,9 +6577,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-i18next@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "react-i18next@npm:16.0.0"
+"react-i18next@npm:^16.1.0":
+  version: 16.1.0
+  resolution: "react-i18next@npm:16.1.0"
   dependencies:
     "@babel/runtime": "npm:^7.27.6"
     html-parse-stringify: "npm:^3.0.1"
@@ -6594,7 +6594,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/c6c83959fa6aac2ed899ec1d3b682fe12b6b00cc60498fe55a08077db3eb81b529213ad389ba45efd6b43dd23c7f982bd990a52d0422724eb4db116e416405a0
+  checksum: 10c0/fa64c933705651ef96e80a520ee0c96e946a78af6415f5a79c98938e551c6b4728a726c9d6632472689d6377c89e5b9f877d51088cc79ee2730f031e0743141c
   languageName: node
   linkType: hard
 
